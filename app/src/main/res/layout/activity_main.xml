@@ -13,7 +13,7 @@
         android:layout_marginStart="162dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="161dp"
-        android:onClick="changeText"
+        android:onClick="doRaffle"
         android:text="Raffle"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,19 +67,20 @@
 
     <TextView
         android:id="@+id/textResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="149dp"
+        android:layout_height="94dp"
         android:layout_marginStart="178dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="177dp"
         android:layout_marginBottom="243dp"
         android:text="Result"
-        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
